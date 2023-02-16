@@ -11,7 +11,7 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
+	name: 'Jazy',
 	imageBackground: false,
 	openInNewTab: true,
 	twelveHourFormat: false,
@@ -26,14 +26,14 @@ const CONFIG = {
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
+	weatherKey: '1ec44e14cafa9089f987ce064bf8cae0', // Write here your API Key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
-	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	trackLocation: false, // If false or an error occurs, the app will use the lat/lon below
+	defaultLatitude: '60.451',
+	defaultLongitude: '22.266',
 
 	// Autochange
 	autoChangeTheme: true,
@@ -60,32 +60,32 @@ const CONFIG = {
 		{
 			id: '2',
 			name: 'Mail',
-			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			icon: 'gmail',
+			link: 'https://www.google.com/intl/fi/gmail/about/',
 		},
 		{
 			id: '3',
 			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			icon: 'twitch',
+			link: 'https://twitch.tv',
 		},
 		{
 			id: '4',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
+			name: 'Crunchyroll',
+			icon: 'crunchyroll',
+			link: 'https://www.crunchyroll.com/',
 		},
 		{
 			id: '5',
 			name: 'Reddit',
-			icon: 'glasses',
+			icon: 'reddit',
 			link: 'https://reddit.com',
 		},
 		{
 			id: '6',
-			name: 'Odysee',
+			name: 'Youtube',
 			icon: 'youtube',
-			link: 'https://odysee.com/',
+			link: 'https://www.youtube.com/',
 		},
 	],
 
@@ -135,46 +135,46 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: '<img height="32" width="32" src="https://cdn.simpleicons.org/reddit/white" />',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Genshin Leaks',
+					link: 'https://www.reddit.com/r/Genshin_Impact_Leaks/',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Silphroad',
+					link: 'https://www.reddit.com/r/TheSilphRoad/',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Games',
+					link: 'https://www.reddit.com/r/Games/',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Gaming Leaks',
+					link: 'https://www.reddit.com/r/GamingLeaksAndRumours/',
 				},
 			],
 		},
 		{
-			icon: 'coffee',
+			icon: '<ion-icon name="rocket"></ion-icon>',
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'DEV.to',
+					link: 'https://dev.to/',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'Cardmarket',
+					link: 'https://www.cardmarket.com/en/Pokemon',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'Pokémon GO Hub',
+					link: 'https://pokemongohub.net/',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'Pokémon go Hub Database',
+					link: 'https://db.pokemongohub.net/',
 				},
 			],
 		},
